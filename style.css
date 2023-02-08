@@ -1,0 +1,160 @@
+/* Customize navigation */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  color: #B44646;
+}
+
+.nav-item.active {
+  color: #007bff;
+}
+
+.grnav {
+  color: #297C3B;
+  font-family: 'HeliosLightC';
+}
+
+/* Customize footer */
+footer {
+  color: #6c757d;
+}
+
+.bggreen {
+  background-color: #00410E;
+}
+
+.txtft {
+  font-family: 'BenguiatGothicMediumC';
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.txt {
+  font-family: 'HeliosLightC';
+  font-style: normal;
+  font-size: 1vw;
+  color: #FFFFFF;
+}
+
+.txtfts{
+  font-family: 'BenguiatGothicMediumC';
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+.txtgr {
+  font-family: 'BenguiatGothicMediumC';
+  font-style: normal;
+  text-transform: uppercase;
+  color: #297C3B;
+  font-size: 4rem;
+}
+.txtgrs{
+  font-family: 'BenguiatGothicMediumC';
+  font-style: normal;
+  color: #297C3B;
+  font-size: 1rem;
+}
+.txtbl {
+  font-family: 'HeliosLightC';
+  color: black;
+  font-size: 1rem;
+}
+
+.bggrey {
+  background-color: #BAC8BD;
+}
+
+.txtgrsm {
+  font-family: 'BenguiatGothicMediumC';
+  color: #297C3B;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.txtgrey{
+  color:#BAC8BD;
+  font-family: 'HeliosLightC';
+  font-size: 1rem;
+
+}
+
+.txtgrhs{
+  color:#297C3B;
+  font-family: 'HeliosLightC';
+  font-size: 1rem;
+
+}
+
+
+@media screen and (max-width: 2560px) {
+  .imgs {
+    max-height: 580px;
+  }
+}
+
+@media screen and (min-width: 1920) {
+  .imgs {
+    max-height: 480px;
+    
+  }
+  .imgs {
+    max-height: 280px;
+  }
+
+
+}
+
+@media screen and (min-width: 1280) {
+  .imgs {
+    max-height: 280px;
+  }
+
+
+}
+
+@font-face {
+  font-family: 'BenguiatGothicMediumC';
+  src: url('BenguiatGothicMediumC.otf');
+  src: local('BenguiatGothicMediumC'), local('BenguiatGothicMediumC'),
+      url('BenguiatGothicMediumC.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BenguiatGothicC';
+  src: url('BenguiatGothicC.otf');
+  src: local('BenguiatGothicC'), local('BenguiatGothicC'),
+      url('BenguiatGothicC.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'HeliosLightC';
+  src: url('HeliosLightC.eot');
+  src: local('HeliosLightC'),
+    url('HeliosLightC.eot?#iefix') format('embedded-opentype'),
+    url('HeliosLightC.woff2') format('woff2'),
+    url('HeliosLightC.woff') format('woff'),
+    url('HeliosLightC.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
